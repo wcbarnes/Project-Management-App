@@ -1,0 +1,24 @@
+{
+  "name": "project-management-app",
+  "version": "1.0.0",
+  "description": "An app to help with project management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wcbarnes/Project-Management-App.git"
+  },
+  "author": "Will Barnes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wcbarnes/Project-Management-App/issues"
+  },
+  "homepage": "https://github.com/wcbarnes/Project-Management-App#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.6.0",
+    "nodemon": "^1.10.2"
+  }
+}

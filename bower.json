@@ -1,0 +1,21 @@
+{
+  "name": "project-management-app",
+  "description": "An app to help with project management",
+  "main": "index.js",
+  "authors": [
+    "Will Barnes"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/wcbarnes/Project-Management-App",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8"
+  }
+}
