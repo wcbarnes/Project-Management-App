@@ -25,6 +25,6 @@
 - [x] On Sign up form submit add User to DB
 - [x] On login get user info from DB
 - [x] On create project create a new project
-  - x ] Inside project task creation add it to correct project
+  - [x] Inside project task creation add it to correct project
   - [ ] Can Edit project correctly
 
