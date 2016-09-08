@@ -10,10 +10,10 @@
     </form>
   </div>
   <div class='projects'>
-    <div ng-repeat="project in projects track by $index" class='project'>
+    <div ng-repeat="project in projects track by $index" class='project' tabindex="10">
       <h3>{{project.projectName}}</h3>
-      <form ng-submit="addTask()">
-        <input ng-model="task" type="text" placeholder="Add a task"></input>
+      <form ng-submit="addTask()" class='task-form'>
+        <input ng-model="task" type="text" placeholder="Add a task" class="css-animate"></input>
         <input type='submit' value="Add a Task" ng-click='myFunc()'></button>
       </form>
       <ul ng-repeat="task in tasks[$index].children">
@@ -23,5 +23,9 @@
     </div>
     
   <div>
+
+  <form ng-submit='logOut()'>
+    <button type='submit'>Log Out</button>
+  </form>
   
 </div>

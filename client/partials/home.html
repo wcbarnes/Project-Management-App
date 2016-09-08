@@ -1,13 +1,14 @@
-<h1>Product Management</h1>
-
-<form ng-submit="login()">
+<h1>Project Management</h1>
+<div class='home-form'>
+<form ng-submit="login()" class='login'>
   <input ng-model="userNameLogin" type="text" placeholder="username"></input>
   <input ng-model="passwordLogin" type="password"></input>
-  <input type='submit' value='Log In'></button>
+  <button type='submit' value='Log In'>Login</button>
 </form>
 
-<form ng-submit="signup()">
+<form ng-submit="signup()" class='signup'>
   <input ng-model="userNameSignup" type="text" placeholder="username"></input>
   <input ng-model="passwordSignup" type="password"></input>
-  <input type='submit' value='Sign Up'></button>
+  <button type='submit' value='Sign Up'>Sign Up</button>
 </form>
+<div>

@@ -3,6 +3,34 @@
 }
 
 h1 {
+  margin-top: 0;
+  padding-top: 0;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.home-form {
+  width: 400px;
+  height: auto;
+  background-color: #333;
+  border-radius: 25%;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 30px auto;
+}
+
+body {
+  background-color: #E1E1E1;
+  margin: 0;
+  padding: 0;
+}
+
+.task-form {
   text-align: center;
 }
 
@@ -14,14 +42,41 @@ h1 {
 .project {
   width: 20%;
   height: 400px;
+  background-color: #DDD;
+  color: #333;
   border: 1px solid black;
   display: inline-block;
   margin: 0 auto;
   float: left;
+  transition: transform 2s;
+}
+
+.project:focus{
+  background-color: #333;
+  color: #DDD;
+  transform: scale(1.2);
+  outline: 0;
 }
 
 .form {
   margin: 0 auto;
   text-align: center;
 }
+
+.login, .signup {
+  text-align: center;
+  margin: 20px;
+
+}
+
+.login input, .signup input {
+  width: 30%;
+  border-radius: 5%;
+}
+
+.login button, .signup button {
+  width: 30%;
+}
+
+
 

@@ -30,8 +30,8 @@ function ProjectController($scope, ProjectFactory, TaskFactory) {
       $scope.fetch();
     });
   };
-  // $scope.fetchTasks = function () {
-  //   TaskFactory.fetch().success
-  // }
+  $scope.logOut = function () {
+    ProjectFactory.logOut();
+  }
   $scope.fetch();
 }
